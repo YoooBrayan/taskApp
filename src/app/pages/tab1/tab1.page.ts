@@ -20,7 +20,6 @@ export class Tab1Page {
     private alert: AlertController
   ) {
     this.cortes = this.corteService.cortes;
-    console.log("cortes",this.cortes)
   }
 
   async newCorte() {
@@ -43,7 +42,6 @@ export class Tab1Page {
         {
           text: "Submit",
           handler: (data) => {
-            console.log(data);
             if (data.model.length === 0) {
               return;
             }
@@ -68,7 +66,6 @@ export class Tab1Page {
   }
 
   async update(corte: Corte) {
-    console.log(corte);
 
     const alert = await this.alert.create({
       header: "Update Name",
