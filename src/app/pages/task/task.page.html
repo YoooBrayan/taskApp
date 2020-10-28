@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tabs/tab1/newcorte/{{ idCorte}}"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">information of task</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-text>
+        <ion-label>Name:</ion-label>
+        <h1>{{ task.name }}</h1>
+      </ion-text>
+    </ion-item>
+    <ion-item class="ion-margin-top">
+      <ion-text>
+        <ion-label>Quantity:</ion-label>
+        <h1>{{ task.quantity }}</h1>
+      </ion-text>
+    </ion-item>
+    <ion-item class="ion-margin-top">
+      <ion-text>
+        <ion-label>Description:</ion-label>
+        <h2>{{ task.description }}</h2>
+      </ion-text>
+    </ion-item>
+  </ion-list>
+</ion-content>

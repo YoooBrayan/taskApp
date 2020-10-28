@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> model list </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item-sliding *ngFor="let corte of cortes">
+      <ion-item-options side="start">
+        <ion-item-option color="primary" (click)="update(corte)">
+          <ion-icon slot="icon-only" name="pencil-outline"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+
+      <ion-item detail (click)="getTasks(corte.id)">
+        <ion-label> {{ corte.modelo }} </ion-label>
+        <ion-note slot="end" color="tertiary">
+          {{ corte.tasks.length }} task
+        </ion-note>
+      </ion-item>
+
+      <ion-item-options side="end">
+        <ion-item-option color="danger" (click)="delete(corte.id)">
+          <ion-icon slot="icon-only" name="close"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="tertiary" (click)="newCorte()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed" *ngIf="cortes.length > 0">
+    <ion-fab-button color="warning" (click)="deleteAll()">
+      <ion-icon name="trash-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

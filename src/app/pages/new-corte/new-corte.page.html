@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="tertiary" defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center"> {{ corte.modelo }}  {{ corte.date | date:'mediumDate'}} </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item class="ion-margin-top">
+      <ion-label position="floating">Task</ion-label>
+      <ion-input
+        type="text"
+        name="name"
+        [(ngModel)]="name"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Quantity</ion-label>
+      <ion-input
+        type="number"
+        name="quantity"
+        [(ngModel)]="quantity"
+      ></ion-input>
+    </ion-item>
+    <ion-item class="ion-margin-top">
+      <ion-label position="floating">Description</ion-label>
+      <ion-input
+        type="text"
+        name="description"
+        [(ngModel)]="description"
+      ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-button slot="end" color="tertiary" (click)="addTaks()"
+        >Add</ion-button
+      >
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header class="ion-margin-top">
+      <ion-label>Tasks</ion-label>
+    </ion-list-header>
+
+    <ion-item-sliding *ngFor="let task of corte.tasks" class="animated fadeInDown">
+      <ion-item color="light" (click)="view(task)">
+        <ion-label> {{ task.name }} </ion-label>
+        <ion-label>{{ task.quantity }}</ion-label>
+      </ion-item>
+
+      <ion-item-options side="end">
+        <ion-item-option color="danger" (click)="delete(task.id)"
+          ><ion-icon slot="icon-only" name="close"></ion-icon
+        ></ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+</ion-content>
