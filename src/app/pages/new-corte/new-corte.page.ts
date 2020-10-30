@@ -89,4 +89,5 @@ export class NewCortePage implements OnInit {
     console.log("task", task);
     this.router.navigateByUrl(`/tabs/tab1/task/${task.id}/${this.corte.id}`);
   }
+
 }

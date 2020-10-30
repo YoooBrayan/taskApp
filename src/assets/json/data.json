@@ -1,34 +1,45 @@
 [
   {
-    "name": "Malla",
+    "name": "Tiras Chimbas",
     "tasks": [
       {
-        "name": "Filete",
-        "price": 50
-      },
-      {
-        "name": "Rematada",
-        "price": 100
-      },
-      {
-        "name": "Dobladillos",
+        "name": "Cesgo Tiras",
         "price": 200
       },
       {
-        "name": "Delantero",
+        "name": "Falsos",
+        "price": 50
+      },
+      {
+        "name": "Encaje",
+        "price": 200
+      },
+      {
+        "name": "Ruedo Delantero",
+        "price": 100
+      },
+      {
+        "name": "Delanteros",
+        "price": 400
+      },
+      {
+        "name": "Cauchos",
         "price": 100
       },
       {
         "name": "Dobladillos",
-        "price": 500
-      }
-    ]
-  },
-  {
-    "name": "Cuello",
-    "tasks": [
+        "price": 150
+      },
       {
-        "name": "Filete",
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Pegada Tiras Espalda",
         "price": 150
       },
       {
@@ -36,16 +47,2515 @@
         "price": 50
       },
       {
+        "name": "Cortada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Cesgo Cuello",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Moño Nuevo",
+    "tasks": [
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Pegada Malla Delantero",
+        "price": 150
+      },
+      {
+        "name": "Pegada Malla Tracero",
+        "price": 150
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cesgo",
+        "price": 100
+      },
+      {
+        "name": "Pegada Resorte Manga",
+        "price": 100
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Pegada Cuello",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo Malla",
+        "price": 100
+      },
+      {
+        "name": "Unida Malla Tracero",
+        "price": 50
+      },
+      {
+        "name": "Ruedo Malla",
+        "price": 50
+      },
+      {
+        "name": "Pegada de boton",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Tira Ancha",
+    "tasks": [
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Falso",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Volteada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Ruedo Delantero ",
+        "price": 50
+      },
+      {
+        "name": "Pegada Tiras",
+        "price": 200
+      },
+      {
+        "name": "Caucho",
+        "price": 100
+      },
+      {
         "name": "Dobladillos",
+        "price": 150
+      },
+      {
+        "name": "Cesgo",
+        "price": 100
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Delantero",
+        "price": 200
+      },
+      {
+        "name": "Unida de Puntas",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Manga Blonda",
+    "tasks": [
+      {
+        "name": "Delantero",
+        "price": 200
+      },
+      {
+        "name": "Unida Volteada y Despunte Malla",
+        "price": 200
+      },
+      {
+        "name": "Falso",
+        "price": 50
+      },
+      {
+        "name": "Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Puños",
+        "price": 100
+      },
+      {
+        "name": "Empuñada",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cuellos",
+        "price": 150
+      },
+      {
+        "name": "Pegada Cuello",
+        "price": 200
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "CESGO DE ESPALDA",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Volteada de Puños",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Malla",
+    "tasks": [
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Delanteros",
+        "price": 100
+      },
+      {
+        "name": "Fileteada Malla",
+        "price": 100
+      },
+      {
+        "name": "Cesgo",
+        "price": 150
+      },
+      {
+        "name": "Pretina",
+        "price": 200
+      },
+      {
+        "name": "Tiras Malla",
+        "price": 100
+      },
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Tiras",
+        "price": 200
+      },
+      {
+        "name": "Encuellada",
+        "price": 350
+      },
+      {
+        "name": "Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Evilla",
+    "tasks": [
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 50
+      },
+      {
+        "name": "Delanteros ",
+        "price": 350
+      },
+      {
+        "name": "Espalda Superior",
+        "price": 100
+      },
+      {
+        "name": "Fileteada Delantero ",
+        "price": 150
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 150
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Falsos",
+        "price": 50
+      },
+      {
+        "name": "Ruedo",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 150
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 100
+      },
+      {
+        "name": "Cabeceada",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Triangulo 2",
+    "tasks": [
+      {
+        "name": "Cesgo Tiras",
+        "price": 100
+      },
+      {
+        "name": "Cisa",
+        "price": 150
+      },
+      {
+        "name": "Cesgo Delantero",
+        "price": 100
+      },
+      {
+        "name": "Triangulo",
+        "price": 100
+      },
+      {
+        "name": "Pegada Triangulo",
+        "price": 150
+      },
+      {
+        "name": "Pegada Triangulo a la Tira",
+        "price": 100
+      },
+      {
+        "name": "Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Pegada Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 150
+      },
+      {
+        "name": "Fileteada Delantero ",
+        "price": 150
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cortada Tiras",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Mariposa Manga",
+    "tasks": [
+      {
+        "name": "Falso",
+        "price": 50
+      },
+      {
+        "name": "Pegada Delanteros",
+        "price": 100
+      },
+      {
+        "name": "Pegada Espaldas",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Cesgo Espaldas",
+        "price": 150
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Pegada Cuello",
+        "price": 200
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Mariposa",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      },
+      {
+        "name": "DELANTERO ",
+        "price": 300
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Volteada Cuello",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "V cisa",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Fileteada de Malla",
+        "price": 200
+      },
+      {
+        "name": "Cesgos",
+        "price": 300
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cabeceada",
+        "price": 150
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "V Manga",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cesgo",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Puños",
+        "price": 100
+      },
+      {
+        "name": "Empuñada",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Fileteada de Malla",
+        "price": 200
+      },
+      {
+        "name": "Volteada de Puños",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Tiras 2",
+    "tasks": [
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Pegada de Tiras Delantero",
+        "price": 100
+      },
+      {
+        "name": "Encuellada",
+        "price": 300
+      },
+      {
+        "name": "Pegada de Falso",
+        "price": 100
+      },
+      {
+        "name": "Falso",
+        "price": 50
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 150
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Caucho",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 150
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Refilada de Tiras",
+        "price": 50
+      },
+      {
+        "name": "Despuntar",
+        "price": 100
+      },
+      {
+        "name": "Volteada de Cuello",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "Triangulo",
+    "tasks": [
+      {
+        "name": "Pegada Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Fileteada Delantero ",
+        "price": 150
+      },
+      {
+        "name": "Cesgo Delantero",
+        "price": 100
+      },
+      {
+        "name": "Despunte de Delantero",
+        "price": 150
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 100
+      },
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Encuellada",
+        "price": 300
+      },
+      {
+        "name": "Volteada de Cuello",
+        "price": 50
+      },
+      {
+        "name": "Triangulo",
+        "price": 300
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo de Espalda",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Triangulo",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "C-1",
+    "tasks": [
+      {
+        "name": "Cerrada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Volteada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Despunte de Tiras",
+        "price": 100
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 50
+      },
+      {
+        "name": "Falsos",
+        "price": 50
+      },
+      {
+        "name": "Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Delantero Inferior",
+        "price": 300
+      },
+      {
+        "name": "Delantero Superior",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo de Espalda",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 50
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Mariposa",
+    "tasks": [
+      {
+        "name": "Cesgo Tiras",
+        "price": 50
+      },
+      {
+        "name": "Despunte de Delantero",
+        "price": 100
+      },
+      {
+        "name": "Ruedo Falso",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 150
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Volteada Cuello",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Despunte de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Embolsada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Mariposa",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Tiras Delantero",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Falso",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Escalera",
+    "tasks": [
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Fileteada de Delantero ",
+        "price": 150
+      },
+      {
+        "name": "Fileteada Malla",
+        "price": 100
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 150
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 50
+      },
+      {
+        "name": "Pretina",
+        "price": 200
+      },
+      {
+        "name": "Pegada de Tiras Malla",
+        "price": 150
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Volteada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Encuellada",
+        "price": 350
+      },
+      {
+        "name": "Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      }
+    ]
+  },
+  {
+    "name": "Flecos",
+    "tasks": [
+      {
+        "name": "Fileteada de Delantero ",
+        "price": 150
+      },
+      {
+        "name": "Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Volteada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Despunte de Tiras",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo de Espalda",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Ruedo Delantero ",
+        "price": 50
+      },
+      {
+        "name": "Despunte de Delantero",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
         "price": 100
       },
       {
         "name": "Delantero",
-        "price": 250
+        "price": 400
+      }
+    ]
+  },
+  {
+    "name": "Manga Nueva",
+    "tasks": [
+      {
+        "name": "CESGO MALLAS Y TIRAS",
+        "price": 150
+      },
+      {
+        "name": "ESPALDAS ",
+        "price": 200
+      },
+      {
+        "name": "Cuellos",
+        "price": 150
+      },
+      {
+        "name": "Falsos",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Puños",
+        "price": 100
+      },
+      {
+        "name": "Empuñada",
+        "price": 200
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "ENCUELLADA",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      },
+      {
+        "name": "DELANTERO ",
+        "price": 300
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Volteada de Puños",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Manga 2",
+    "tasks": [
+      {
+        "name": "Cuellos",
+        "price": 150
+      },
+      {
+        "name": "ENCUELLADA",
+        "price": 200
+      },
+      {
+        "name": "Pegada Malla Delantero",
+        "price": 100
+      },
+      {
+        "name": "Pegada malla tracero",
+        "price": 50
+      },
+      {
+        "name": "Fileteada Delantero ",
+        "price": 150
+      },
+      {
+        "name": "Fileteada Espalda",
+        "price": 100
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Mangas",
+        "price": 200
+      },
+      {
+        "name": "puños y ruedo",
+        "price": 150
+      },
+      {
+        "name": "Volteada de Puños",
+        "price": 50
+      },
+      {
+        "name": "Empuñada",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cesgada Malla Espalda",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "C-2",
+    "tasks": [
+      {
+        "name": "Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cerrada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Volteada Tiras",
+        "price": 100
+      },
+      {
+        "name": "Despunte de Tiras",
+        "price": 100
+      },
+      {
+        "name": "cesgo",
+        "price": 50
+      },
+      {
+        "name": "pegada de tiras falso y despunte",
+        "price": 400
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "pegada de malla",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo de Espalda",
+        "price": 50
       },
       {
         "name": "Marquillas",
-        "price": 350
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Falso",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Cuello Malla",
+    "tasks": [
+      {
+        "name": "Pegada de Malla",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 150
+      },
+      {
+        "name": "Despunte de Delantero",
+        "price": 100
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Encuellada",
+        "price": 300
+      },
+      {
+        "name": "Volteada Cuello",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Doble Malla",
+    "tasks": [
+      {
+        "name": "Pegada de Malla Superior",
+        "price": 100
+      },
+      {
+        "name": "Pegada Malla Inferior",
+        "price": 100
+      },
+      {
+        "name": "Despunte de Delantero ",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 150
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Volteada de Cuello",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Embolsada de Cuello",
+        "price": 100
+      },
+      {
+        "name": "Despunte de Cuello",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Malla V",
+    "tasks": [
+      {
+        "name": "Pegada Malla Delantero",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Cesgos",
+        "price": 300
+      },
+      {
+        "name": "Cabeceada",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Gotica Cisa",
+    "tasks": [
+      {
+        "name": "Fileteada de Delantero",
+        "price": 500
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cesgos",
+        "price": 300
+      },
+      {
+        "name": "Cabeceada",
+        "price": 150
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Gotica Manga",
+    "tasks": [
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Fileteada de Delantero",
+        "price": 500
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Empuñada",
+        "price": 200
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cesgo Cuello",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Puños",
+        "price": 100
+      },
+      {
+        "name": "Volteada de Puños",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Escalera Malla",
+    "tasks": [
+      {
+        "name": "fileteada Delantero y Malla",
+        "price": 200
+      },
+      {
+        "name": "unida delantero",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 100
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "DELANTERO ",
+        "price": 300
+      },
+      {
+        "name": "Delantero Inferior",
+        "price": 300
+      },
+      {
+        "name": "tiras inferiores",
+        "price": 100
+      },
+      {
+        "name": "despunte Lateral",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Falsos",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 150
+      },
+      {
+        "name": "Despunte Delantero",
+        "price": 50
+      },
+      {
+        "name": "Despunte Mitad",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Evilla Pretina",
+    "tasks": [
+      {
+        "name": "DELANTERO ",
+        "price": 300
+      },
+      {
+        "name": "Evilla",
+        "price": 50
+      },
+      {
+        "name": "Pegada Cauchos",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Pretina",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo de Espalda",
+        "price": 50
+      },
+      {
+        "name": "Ruedo de Falso",
+        "price": 100
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 150
+      },
+      {
+        "name": "Despunte",
+        "price": 50
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Cesgo Tiras",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Cola de Pato",
+    "tasks": [
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "cesgos tiras",
+        "price": 100
+      },
+      {
+        "name": "Ruedo de Falso",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Cauchos",
+        "price": 100
+      },
+      {
+        "name": "pegada de malla y falso",
+        "price": 400
+      },
+      {
+        "name": "despunte",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "Replay",
+    "tasks": [
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 200
+      },
+      {
+        "name": "Cesgo espalda",
+        "price": 50
+      },
+      {
+        "name": "ENCUELLADA",
+        "price": 200
+      },
+      {
+        "name": "delantero inferior",
+        "price": 300
+      },
+      {
+        "name": "delantero superior",
+        "price": 300
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "Cuello Cesgo",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cesgo",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Bolero",
+    "tasks": [
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo Espalda",
+        "price": 100
+      },
+      {
+        "name": "Cesgo cisa",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Fileteada de Delantero ",
+        "price": 100
+      },
+      {
+        "name": "Cesgo Malla",
+        "price": 100
+      },
+      {
+        "name": "ENCUELLADA",
+        "price": 200
+      },
+      {
+        "name": "Pegada Malla y Bolero",
+        "price": 150
+      },
+      {
+        "name": "Pegada de Bolero y Espalda",
+        "price": 100
+      },
+      {
+        "name": "Cortada y Pegada de Caucho",
+        "price": 150
+      },
+      {
+        "name": "unida de Bolero",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Boton",
+        "price": 200
+      },
+      {
+        "name": "Volteada Cuello",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Flecos Tiras",
+    "tasks": [
+      {
+        "name": "Cesgo",
+        "price": 550
+      },
+      {
+        "name": "Ruedo",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Flecos",
+        "price": 100
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Body Blonda",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Puños",
+        "price": 100
+      },
+      {
+        "name": "Pegada Calzon",
+        "price": 100
+      },
+      {
+        "name": "Cesgo Cuello",
+        "price": 100
+      },
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Rematada Body",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo Calzon",
+        "price": 150
+      },
+      {
+        "name": "Pegada Gancho",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Body Tetas",
+    "tasks": [
+      {
+        "name": "Despunte tetas",
+        "price": 100
+      },
+      {
+        "name": "Fileteada Tetas",
+        "price": 200
+      },
+      {
+        "name": "Filete Calzon",
+        "price": 50
+      },
+      {
+        "name": "Pegada Calzon",
+        "price": 100
+      },
+      {
+        "name": "Unida Tetas y Calzon",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Dobladillo Calzon",
+        "price": 150
+      },
+      {
+        "name": "Pegada Gancho",
+        "price": 100
+      },
+      {
+        "name": "Cesgo",
+        "price": 200
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Pegada Tiras Delantero",
+        "price": 150
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Blusa Cuello",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Prences Mangas",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Cuello",
+        "price": 150
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Blusa Cesgo",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cesgo",
+        "price": 100
+      },
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Prences Mangas",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "Body Cuello",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Cuello",
+        "price": 150
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 50
+      },
+      {
+        "name": "Prences Mangas",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 150
+      },
+      {
+        "name": "Pegada Gancho",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Body Cesgo",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Pegada Gancho",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 150
+      },
+      {
+        "name": "Cesgo",
+        "price": 100
+      },
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Prences Mangas",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "Blusa Falso Malla",
+    "tasks": [
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Cesgo",
+        "price": 150
+      },
+      {
+        "name": "Delantero",
+        "price": 200
+      },
+      {
+        "name": "Prences Mangas",
+        "price": 200
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Pegada Resorte Manga",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Blusa Falso",
+    "tasks": [
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Cesgo",
+        "price": 150
+      },
+      {
+        "name": "Delantero",
+        "price": 200
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Prences Mangas",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "Blusa Blonda Pretina",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Cuello",
+        "price": 150
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 150
+      },
+      {
+        "name": "Pretina",
+        "price": 200
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Fileteada top",
+        "price": 100
+      },
+      {
+        "name": "Cesgo top",
+        "price": 250
+      },
+      {
+        "name": "Rematada Top",
+        "price": 50
+      },
+      {
+        "name": "Pegada pretina",
+        "price": 150
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 100
+      },
+      {
+        "name": "Despuntar",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Body Malla Cuello",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo Calzon",
+        "price": 150
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Cuello",
+        "price": 150
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Pegada Gancho",
+        "price": 100
+      },
+      {
+        "name": "Fileteada top",
+        "price": 100
+      },
+      {
+        "name": "Cesgo top",
+        "price": 250
+      },
+      {
+        "name": "Rematada Top",
+        "price": 50
+      },
+      {
+        "name": "Pegada pretina",
+        "price": 150
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Top Brillante",
+    "tasks": [
+      {
+        "name": "Marcada Resorte",
+        "price": 150
+      },
+      {
+        "name": "Prence",
+        "price": 50
+      },
+      {
+        "name": "Cesgo",
+        "price": 200
+      },
+      {
+        "name": "Ruedo",
+        "price": 50
+      },
+      {
+        "name": "Unida",
+        "price": 50
+      },
+      {
+        "name": "Pegada Resorte",
+        "price": 100
+      },
+      {
+        "name": "Unida Resorte",
+        "price": 25
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Despunte Resorte",
+        "price": 25
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Manga Pretina",
+    "tasks": [
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Cesgo Cuello",
+        "price": 150
+      },
+      {
+        "name": "Dobladillo de Manga",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Manga",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Prence Manga",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Pretina",
+        "price": 100
+      },
+      {
+        "name": "Cesgo hueco",
+        "price": 50
+      },
+      {
+        "name": "Pegada Pretina ",
+        "price": 200
+      },
+      {
+        "name": "Despunte Pretina",
+        "price": 50
+      },
+      {
+        "name": "Volteada Pretina",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Una Manga Malla",
+    "tasks": [
+      {
+        "name": "Cabeceada",
+        "price": 50
+      },
+      {
+        "name": "Cesgo Cuello",
+        "price": 150
+      },
+      {
+        "name": "Dobladillo de Manga",
+        "price": 50
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Prence Manga",
+        "price": 100
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Pegada de Manga",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Solo Malla Cuello Alto",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Cerrada de Cuello",
+        "price": 50
+      },
+      {
+        "name": "Marquillas",
+        "price": 50
+      },
+      {
+        "name": "Pegada de Cuello",
+        "price": 150
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Solo Malla Cuello Filete",
+    "tasks": [
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Filete Cuello",
+        "price": 100
+      },
+      {
+        "name": "Filete Ruedo",
+        "price": 150
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Moño Manga",
+    "tasks": [
+      {
+        "name": "Cerrada Laterales",
+        "price": 200
+      },
+      {
+        "name": "Ruedo Malla",
+        "price": 50
+      },
+      {
+        "name": "Dobladillo Mangas",
+        "price": 100
+      },
+      {
+        "name": "Pegada Cuello",
+        "price": 200
+      },
+      {
+        "name": "Pegada Mangas",
+        "price": 200
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Unida Malla Tracero",
+        "price": 50
+      },
+      {
+        "name": "Pegada Malla Delantero",
+        "price": 150
+      },
+      {
+        "name": "Hombros",
+        "price": 50
+      },
+      {
+        "name": "Pegada Malla Tracero",
+        "price": 150
+      },
+      {
+        "name": "Cuello",
+        "price": 150
+      },
+      {
+        "name": "Dobladillo",
+        "price": 100
+      },
+      {
+        "name": "Pegada de boton",
+        "price": 100
+      },
+      {
+        "name": "Dobladillo Malla",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "name": "Top Aro",
+    "tasks": [
+      {
+        "name": "Fileteada top",
+        "price": 100
+      },
+      {
+        "name": "Pegada Tiras Espalda",
+        "price": 50
+      },
+      {
+        "name": "Pegada Aro",
+        "price": 50
+      },
+      {
+        "name": "Rematada Top",
+        "price": 50
+      },
+      {
+        "name": "cesgo top",
+        "price": 100
+      },
+      {
+        "name": "cesgo lateral",
+        "price": 150
+      },
+      {
+        "name": "unida delantero",
+        "price": 25
+      },
+      {
+        "name": "Pegada pretina",
+        "price": 100
+      },
+      {
+        "name": "Cerrada Pretina",
+        "price": 50
       }
     ]
   }
