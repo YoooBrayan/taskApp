@@ -1,13 +1,18 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header [translucent]="true" color="dark" class="ion-no-border">
+  <ion-toolbar color="dark">
     <ion-title> model list </ion-title>
+    <ion-buttons>
+      <ion-button (click)="reload()" color="tertiary">
+        <ion-icon  slot="start" name="reload-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" color="dark">
   <ion-list>
     <ion-item-sliding *ngFor="let corte of cortes">
-      <ion-item detail (click)="getTasks(corte.id)">
+      <ion-item detail (click)="getTasks(corte.id)" color="dark">
         <ion-label> {{ corte.modelo }} </ion-label>
         <ion-note slot="end" color="tertiary">
           {{ corte.tasks.length }} task
@@ -21,7 +26,7 @@
       </ion-item-options>
     </ion-item-sliding>
 
-    <ion-item *ngIf="isAdd" class="ion-margin-top">
+    <ion-item *ngIf="isAdd" class="ion-margin-top" color="dark">
       <ion-label>Models</ion-label>
       <ion-select (ionChange)="newModel()" [(ngModel)]="modelSelect">
         <ion-select-option *ngFor="let model of modelos"
@@ -31,7 +36,7 @@
     </ion-item>
   </ion-list>
   <ion-list>
-    <ion-item *ngIf="total!==0">
+    <ion-item *ngIf="total!==0" color="dark">
       <ion-label>Total</ion-label>
       <ion-label> {{ total }} </ion-label>
     </ion-item>

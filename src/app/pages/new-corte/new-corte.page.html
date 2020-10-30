@@ -1,5 +1,5 @@
-<ion-header>
-  <ion-toolbar>
+<ion-header color="dark" class="ion-no-border">
+  <ion-toolbar color="dark">
     <ion-buttons slot="start">
       <ion-back-button color="tertiary" defaultHref="/"></ion-back-button>
     </ion-buttons>
@@ -9,9 +9,9 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="dark">
   <ion-list>
-    <ion-item class="ion-margin-top">
+    <ion-item class="ion-margin-top" color="dark">
       <ion-label>Task</ion-label>
       <!--<ion-input type="text" name="name" [(ngModel)]="name"></ion-input>-->
       <ion-select [(ngModel)]="name">
@@ -20,7 +20,7 @@
         >
       </ion-select>
     </ion-item>
-    <ion-item>
+    <ion-item color="dark">
       <ion-label position="floating">Quantity</ion-label>
       <ion-input
         type="number"
@@ -28,7 +28,7 @@
         [(ngModel)]="quantity"
       ></ion-input>
     </ion-item>
-    <ion-item class="ion-margin-top">
+    <ion-item class="ion-margin-top" color="dark">
       <ion-label position="floating">Description</ion-label>
       <ion-input
         type="text"
@@ -36,7 +36,7 @@
         [(ngModel)]="description"
       ></ion-input>
     </ion-item>
-    <ion-item>
+    <ion-item color="dark">
       <ion-button slot="end" color="tertiary" (click)="addTaks()"
         >Add</ion-button
       >
@@ -44,7 +44,7 @@
   </ion-list>
 
   <ion-list>
-    <ion-list-header class="ion-margin-top">
+    <ion-list-header class="ion-margin-top" color="dark">
       <ion-label>Tasks</ion-label>
     </ion-list-header>
 
@@ -52,7 +52,7 @@
       *ngFor="let task of corte.tasks"
       class="animated fadeInDown"
     >
-      <ion-item color="light" (click)="view(task)">
+      <ion-item color="light" (click)="view(task)" color="dark">
         <ion-label> {{ task.name }} </ion-label>
         <ion-label>{{ task.quantity }}</ion-label>
         <ion-label>{{ task.price }}</ion-label>
@@ -65,7 +65,7 @@
       </ion-item-options>
     </ion-item-sliding>
 
-    <ion-item color="light" *ngIf="total!==0">
+    <ion-item color="light" *ngIf="total!==0" color="dark">
       <ion-label> Total </ion-label>
       <ion-label> </ion-label>
       <ion-label> {{ total }} </ion-label>

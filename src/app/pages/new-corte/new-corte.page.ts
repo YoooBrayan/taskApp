@@ -29,15 +29,17 @@ export class NewCortePage implements OnInit {
   ) {
     const id = this.route.snapshot.paramMap.get("id");
     this.corte = this.corteService.getCorte(id);
-    console.log("corteM", this.corte.modelo)
+    console.log("corteM", this.corte.modelo);
     this.tasks = data.find(
-      (modelF: any) => (modelF.name === this.corte.modelo)
+      (modelF: any) => modelF.name === this.corte.modelo
     ).tasks;
-    console.log("taskM",this.tasks)
+    console.log("taskM", this.tasks);
     this.quantity = this.corte.quantity;
     this.total = this.corte.tasks
       .map((task) => task.price)
       .reduce((a, b) => a + b, 0);
+
+    this.tasks = this.sortJSON(JSON.parse(JSON.stringify(this.tasks)), 'name', 'asc');
   }
 
   ngOnInit() {}
@@ -90,4 +92,18 @@ export class NewCortePage implements OnInit {
     this.router.navigateByUrl(`/tabs/tab1/task/${task.id}/${this.corte.id}`);
   }
 
+  sortJSON(data, key, orden) {
+    return data.sort(function (a, b) {
+      var x = a[key],
+        y = b[key];
+
+      if (orden === "asc") {
+        return x < y ? -1 : x > y ? 1 : 0;
+      }
+
+      if (orden === "desc") {
+        return x > y ? -1 : x < y ? 1 : 0;
+      }
+    });
+  }
 }
