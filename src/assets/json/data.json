@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Malla",
+    "tasks": [
+      {
+        "name": "Filete",
+        "price": 50
+      },
+      {
+        "name": "Rematada",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 200
+      },
+      {
+        "name": "Delantero",
+        "price": 100
+      },
+      {
+        "name": "Dobladillos",
+        "price": 500
+      }
+    ]
+  },
+  {
+    "name": "Cuello",
+    "tasks": [
+      {
+        "name": "Filete",
+        "price": 150
+      },
+      {
+        "name": "Rematada",
+        "price": 50
+      },
+      {
+        "name": "Dobladillos",
+        "price": 100
+      },
+      {
+        "name": "Delantero",
+        "price": 250
+      },
+      {
+        "name": "Marquillas",
+        "price": 350
+      }
+    ]
+  }
+]

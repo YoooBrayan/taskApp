@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">taskApp</string>
-    <string name="title_activity_main">taskApp</string>
-    <string name="package_name">com.threadsoft.app</string>
-    <string name="custom_url_scheme">com.threadsoft.app</string>
-</resources>

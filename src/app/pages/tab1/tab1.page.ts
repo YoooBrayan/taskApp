@@ -3,6 +3,7 @@ import { Router } from "@angular/router";
 import { AlertController, IonList } from "@ionic/angular";
 import { Corte } from "src/app/models/Corte";
 import { CorteService } from "src/app/services/corte.service";
+import data from "../../../assets/json/data.json";
 
 @Component({
   selector: "app-tab1",
@@ -12,6 +13,11 @@ import { CorteService } from "src/app/services/corte.service";
 export class Tab1Page {
   @ViewChild(IonList) corteL: IonList;
 
+  modelos: any = data;
+
+  isAdd: boolean;
+  modelSelect: string;
+
   cortes: Corte[];
 
   constructor(
@@ -20,9 +26,11 @@ export class Tab1Page {
     private alert: AlertController
   ) {
     this.cortes = this.corteService.cortes;
+    console.log(this.modelos[1].tasks);
+    this.isAdd = false;
   }
 
-  async newCorte() {
+  /*async newCorte() {
     //this.router.navigateByUrl("/tabs/tab1/newcorte");
 
     const alert = await this.alert.create({
@@ -55,53 +63,62 @@ export class Tab1Page {
     });
 
     alert.present();
-  }
+  }*/
 
-  getTasks(id: number) {
-    this.router.navigateByUrl(`/tabs/tab1/newcorte/${id}`);
-  }
+  async newModel() {
+    //const id = this.corteService.newCorte(this.modelSelect);
+    this.isAdd = false;
 
-  delete(id: number) {
-    this.cortes = this.corteService.deleteCorte(id);
-  }
-
-  async update(corte: Corte) {
 
     const alert = await this.alert.create({
-      header: "Update Name",
+      header: "Quantity",
       inputs: [
         {
-          type: "text",
-          value: corte.modelo,
-          placeholder: "Model",
-          name: "model",
+          name: "quantity",
+          type: "number",
+          placeholder: "Quantity",
         },
       ],
       buttons: [
         {
-          text: "Update",
+          text: "Cancel",
+          role: "cancel",
+          handler: () => {
+            this.modelSelect = '';
+          }
+        },
+        {
+          text: "Submit",
           handler: (data) => {
-            if (data.model === 0) {
+            if (data.quantity.length === 0) {
               return;
             }
 
-            corte.modelo = data.model;
-            this.corteService.saveStorage();
+            const id = this.corteService.newCorte(this.modelSelect, data.quantity);
 
-            this.corteL.closeSlidingItems();
+            this.router.navigateByUrl(`/tabs/tab1/newcorte/${id}`);
           },
-        },
-        {
-          text: "Cancel",
-          role: "cancel",
         },
       ],
     });
 
     alert.present();
+
+    //this.router.navigateByUrl(`/tabs/tab1/newcorte/${id}/${this.modelSelect}`);
+  }
+
+  getTasks(id: number) {
+    this.router.navigateByUrl(`/tabs/tab1/newcorte/${id}`);
+    this.isAdd = false;
+  }
+
+  delete(id: number) {
+    this.cortes = this.corteService.deleteCorte(id);
+    this.isAdd = false;
   }
 
   async deleteAll() {
+    this.isAdd = false;
     const alert = await this.alert.create({
       header: "Delete All?",
       buttons: [
@@ -109,7 +126,6 @@ export class Tab1Page {
           text: "Agree",
           handler: () => {
             this.cortes = this.corteService.deleteAll();
-             
           },
         },
         { text: "Cancel", role: "cancel" },

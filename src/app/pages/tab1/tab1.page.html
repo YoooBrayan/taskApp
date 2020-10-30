@@ -7,12 +7,7 @@
 <ion-content [fullscreen]="true">
   <ion-list>
     <ion-item-sliding *ngFor="let corte of cortes">
-      <ion-item-options side="start">
-        <ion-item-option color="primary" (click)="update(corte)">
-          <ion-icon slot="icon-only" name="pencil-outline"></ion-icon>
-        </ion-item-option>
-      </ion-item-options>
-
+    
       <ion-item detail (click)="getTasks(corte.id)">
         <ion-label> {{ corte.modelo }} </ion-label>
         <ion-note slot="end" color="tertiary">
@@ -26,10 +21,20 @@
         </ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
+
+
+    <ion-item *ngIf="isAdd" class="ion-margin-top">
+      <ion-label>Models</ion-label>
+      <ion-select (ionChange)="newModel()" [(ngModel)]="modelSelect">
+        <ion-select-option *ngFor="let model of modelos">{{ model.name }}</ion-select-option>
+      </ion-select>
+    </ion-item>
+
   </ion-list>
 
+
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button color="tertiary" (click)="newCorte()">
+    <ion-fab-button color="tertiary" (click)="isAdd = !isAdd">
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>
@@ -39,4 +44,6 @@
       <ion-icon name="trash-outline"></ion-icon>
     </ion-fab-button>
   </ion-fab>
+
+
 </ion-content>

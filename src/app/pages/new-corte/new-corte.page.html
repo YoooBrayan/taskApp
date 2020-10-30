@@ -3,19 +3,20 @@
     <ion-buttons slot="start">
       <ion-back-button color="tertiary" defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title class="ion-text-center"> {{ corte.modelo }}  {{ corte.date | date:'mediumDate'}} </ion-title>
+    <ion-title class="ion-text-center">
+      {{ corte.modelo }} {{ corte.date | date:'mediumDate'}}
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-item class="ion-margin-top">
-      <ion-label position="floating">Task</ion-label>
-      <ion-input
-        type="text"
-        name="name"
-        [(ngModel)]="name"
-      ></ion-input>
+    <ion-item class="ion-margin-top" >
+      <ion-label>Task</ion-label>
+      <!--<ion-input type="text" name="name" [(ngModel)]="name"></ion-input>-->
+      <ion-select [(ngModel)]="name" >
+        <ion-select-option *ngFor="let task of tasks">{{ task.name }}</ion-select-option>
+      </ion-select>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Quantity</ion-label>
@@ -45,10 +46,14 @@
       <ion-label>Tasks</ion-label>
     </ion-list-header>
 
-    <ion-item-sliding *ngFor="let task of corte.tasks" class="animated fadeInDown">
+    <ion-item-sliding
+      *ngFor="let task of corte.tasks"
+      class="animated fadeInDown"
+    >
       <ion-item color="light" (click)="view(task)">
         <ion-label> {{ task.name }} </ion-label>
         <ion-label>{{ task.quantity }}</ion-label>
+        <ion-label>{{ task.price }}</ion-label>
       </ion-item>
 
       <ion-item-options side="end">
@@ -57,6 +62,12 @@
         ></ion-item-option>
       </ion-item-options>
     </ion-item-sliding>
-  </ion-list>
 
+    <ion-item color="light">
+      <ion-label> Total </ion-label>
+      <ion-label> </ion-label>
+      <ion-label> {{ total }} </ion-label>
+    </ion-item>
+
+  </ion-list>
 </ion-content>

@@ -11,8 +11,8 @@ export class CorteService {
     this.getStorage();
   }
 
-  newCorte(modelo: string) {
-    const newCorte = new Corte(modelo);
+  newCorte(modelo: string, quantity:number) {
+    const newCorte = new Corte(modelo, quantity);
     this.cortes.push(newCorte);
     this.saveStorage();
     return newCorte.id;
