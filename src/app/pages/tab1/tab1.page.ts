@@ -4,6 +4,7 @@ import { AlertController, IonList } from "@ionic/angular";
 import { Corte } from "src/app/models/Corte";
 import { CorteService } from "src/app/services/corte.service";
 import data from "../../../assets/json/data.json";
+import { IonSelect } from "@ionic/angular";
 
 @Component({
   selector: "app-tab1",
@@ -11,9 +12,9 @@ import data from "../../../assets/json/data.json";
   styleUrls: ["tab1.page.scss"],
 })
 export class Tab1Page implements OnInit {
-  ngOnInit(): void {
-    console.log("inicio");
-  }
+  @ViewChild("model") modelSelectRef: IonSelect;
+
+  ngOnInit(): void {}
 
   @ViewChild(IonList) corteL: IonList;
 
@@ -45,47 +46,8 @@ export class Tab1Page implements OnInit {
       "name",
       "asc"
     );
-    console.log(this.modelos);
-    /*this.total = this.cortes.tasks.map((task) => task.price).reduce((a, b) => a + b, 0);*/
   }
-
-  /*async newCorte() {
-    //this.router.navigateByUrl("/tabs/tab1/newcorte");
-
-    const alert = await this.alert.create({
-      header: "New Corte",
-      inputs: [
-        {
-          name: "model",
-          type: "text",
-          placeholder: "Model",
-        },
-      ],
-      buttons: [
-        {
-          text: "Cancel",
-          role: "cancel",
-        },
-        {
-          text: "Submit",
-          handler: (data) => {
-            if (data.model.length === 0) {
-              return;
-            }
-
-            const id = this.corteService.newCorte(data.model);
-
-            this.router.navigateByUrl(`/tabs/tab1/newcorte/${id}`);
-          },
-        },
-      ],
-    });
-
-    alert.present();
-  }*/
-
   async newModel() {
-    //const id = this.corteService.newCorte(this.modelSelect);
     this.isAdd = false;
 
     const alert = await this.alert.create({
@@ -109,6 +71,7 @@ export class Tab1Page implements OnInit {
           text: "Submit",
           handler: (data) => {
             if (data.quantity.length === 0) {
+              this.modelSelect = "";
               return;
             }
 
@@ -124,8 +87,6 @@ export class Tab1Page implements OnInit {
     });
 
     alert.present();
-
-    //this.router.navigateByUrl(`/tabs/tab1/newcorte/${id}/${this.modelSelect}`);
   }
 
   getTasks(id: number) {
@@ -166,7 +127,7 @@ export class Tab1Page implements OnInit {
       .reduce((a, b) => a + b, 0);
   }
 
-  sortJSON(data, key, orden) {
+  sortJSON(data:[], key:string, orden:string) {
     return data.sort(function (a, b) {
       var x = a[key],
         y = b[key];

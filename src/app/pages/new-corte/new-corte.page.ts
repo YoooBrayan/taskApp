@@ -19,6 +19,8 @@ export class NewCortePage implements OnInit {
   price: number;
   total: number = 0;
 
+  names: string[] = [];
+
   tasks: Task[];
 
   constructor(
@@ -29,37 +31,43 @@ export class NewCortePage implements OnInit {
   ) {
     const id = this.route.snapshot.paramMap.get("id");
     this.corte = this.corteService.getCorte(id);
-    console.log("corteM", this.corte.modelo);
     this.tasks = data.find(
       (modelF: any) => modelF.name === this.corte.modelo
     ).tasks;
-    console.log("taskM", this.tasks);
     this.quantity = this.corte.quantity;
     this.total = this.corte.tasks
       .map((task) => task.price)
       .reduce((a, b) => a + b, 0);
 
-    this.tasks = this.sortJSON(JSON.parse(JSON.stringify(this.tasks)), 'name', 'asc');
+    this.tasks = this.sortJSON(
+      JSON.parse(JSON.stringify(this.tasks)),
+      "name",
+      "asc"
+    );
   }
 
   ngOnInit() {}
 
   async addTaks() {
-    if (this.name.length !== 0 && this.quantity > 0) {
-      this.price = this.tasks.find((task) => task.name === this.name).price;
-      const newTask = new Task(
-        this.name,
-        this.quantity,
-        this.description,
-        this.quantity * this.price
-      );
-      this.corte.tasks.push(newTask);
-      this.total = this.corte.tasks
-        .map((task) => task.price)
-        .reduce((a, b) => a + b, 0);
-      this.name = "";
+    if (this.names.length !== 0 && this.quantity > 0) {
+      this.names.map((task) => {
+        setTimeout(() => {
+          this.price = this.tasks.find((t) => t.name === task).price;
+          const newTask = new Task(
+            task,
+            this.quantity,
+            this.description,
+            this.quantity * this.price
+          );
+          this.corte.tasks.push(newTask);
+          this.total = this.corte.tasks
+            .map((task) => task.price)
+            .reduce((a, b) => a + b, 0);
+          this.corteService.saveStorage();
+        }, 100);
+      });
+      this.names = [];
       this.description = "";
-      this.corteService.saveStorage();
     } else if (this.name.length === 0) {
       const toast = await this.toast.create({
         message: "Invalid name!!!",
@@ -92,7 +100,7 @@ export class NewCortePage implements OnInit {
     this.router.navigateByUrl(`/tabs/tab1/task/${task.id}/${this.corte.id}`);
   }
 
-  sortJSON(data, key, orden) {
+  sortJSON(data: [], key: string, orden: string) {
     return data.sort(function (a, b) {
       var x = a[key],
         y = b[key];

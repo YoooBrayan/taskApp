@@ -1,18 +1,21 @@
-<ion-header [translucent]="true" color="dark" class="ion-no-border">
-  <ion-toolbar color="dark">
-    <ion-title> model list </ion-title>
-    <ion-buttons>
+<ion-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar>
+    <ion-item>
+      <ion-title> Model List </ion-title>
+      <ion-icon slot="start" name="shirt-outline" color="tertiary"></ion-icon>
+    </ion-item>
+    <ion-buttons slot="end">
       <ion-button (click)="reload()" color="tertiary">
-        <ion-icon  slot="start" name="reload-outline"></ion-icon>
+        <ion-icon name="reload-outline"></ion-icon>
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" color="dark">
+<ion-content [fullscreen]="true">
   <ion-list>
     <ion-item-sliding *ngFor="let corte of cortes">
-      <ion-item detail (click)="getTasks(corte.id)" color="dark">
+      <ion-item detail (click)="getTasks(corte.id)">
         <ion-label> {{ corte.modelo }} </ion-label>
         <ion-note slot="end" color="tertiary">
           {{ corte.tasks.length }} task
@@ -26,9 +29,9 @@
       </ion-item-options>
     </ion-item-sliding>
 
-    <ion-item *ngIf="isAdd" class="ion-margin-top" color="dark">
+    <ion-item [hidden]="true">
       <ion-label>Models</ion-label>
-      <ion-select (ionChange)="newModel()" [(ngModel)]="modelSelect">
+      <ion-select (ionChange)="newModel()" [(ngModel)]="modelSelect" #model>
         <ion-select-option *ngFor="let model of modelos"
           >{{ model.name }}</ion-select-option
         >
@@ -36,14 +39,14 @@
     </ion-item>
   </ion-list>
   <ion-list>
-    <ion-item *ngIf="total!==0" color="dark">
+    <ion-item *ngIf="total!==0">
       <ion-label>Total</ion-label>
       <ion-label> {{ total }} </ion-label>
     </ion-item>
   </ion-list>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button color="tertiary" (click)="isAdd = !isAdd">
+    <ion-fab-button color="tertiary" (click)="modelSelectRef.open()">
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>
