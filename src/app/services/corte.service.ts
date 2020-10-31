@@ -48,7 +48,7 @@ export class CorteService {
     return this.cortes;
   }
 
-  getTask(idTask: number, idCorte: number) {
+  getTask(idTask: string, idCorte: number) {
     return this.cortes
       .find((corte) => corte.id === idCorte)
       .tasks.find((task) => task.id === idTask);

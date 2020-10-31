@@ -51,24 +51,22 @@ export class NewCortePage implements OnInit {
   async addTaks() {
     if (this.names.length !== 0 && this.quantity > 0) {
       this.names.map((task) => {
-        setTimeout(() => {
-          this.price = this.tasks.find((t) => t.name === task).price;
-          const newTask = new Task(
-            task,
-            this.quantity,
-            this.description,
-            this.quantity * this.price
-          );
-          this.corte.tasks.push(newTask);
-          this.total = this.corte.tasks
-            .map((task) => task.price)
-            .reduce((a, b) => a + b, 0);
-          this.corteService.saveStorage();
-        }, 100);
+        this.price = this.tasks.find((t) => t.name === task).price;
+        const newTask = new Task(
+          task,
+          this.quantity,
+          this.description,
+          this.quantity * this.price
+        );
+        this.corte.tasks.push(newTask);
+        this.total = this.corte.tasks
+          .map((task) => task.price)
+          .reduce((a, b) => a + b, 0);
+        this.corteService.saveStorage();
       });
       this.names = [];
       this.description = "";
-    } else if (this.name.length === 0) {
+    } else if (this.names.length === 0) {
       const toast = await this.toast.create({
         message: "Invalid name!!!",
         duration: 2000,
@@ -82,12 +80,11 @@ export class NewCortePage implements OnInit {
         duration: 2000,
         color: "light",
       });
-
       toast.present();
     }
   }
 
-  delete(id: number) {
+  delete(id: string) {
     this.corte.tasks = this.corte.tasks.filter((taks) => taks.id !== id);
     this.total = this.corte.tasks
       .map((task) => task.price)
@@ -96,7 +93,6 @@ export class NewCortePage implements OnInit {
   }
 
   view(task: Task) {
-    console.log("task", task);
     this.router.navigateByUrl(`/tabs/tab1/task/${task.id}/${this.corte.id}`);
   }
 

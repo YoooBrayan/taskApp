@@ -18,7 +18,7 @@ export class TaskPage implements OnInit {
   ) {
     const idTask = this.router.snapshot.paramMap.get("idtask");
     this.idCorte = Number(this.router.snapshot.paramMap.get("idcorte"));
-    this.task = this.corteService.getTask(Number(idTask), this.idCorte);
+    this.task = this.corteService.getTask(idTask, this.idCorte);
   }
 
   ngOnInit() {}

@@ -17,6 +17,7 @@
     <ion-item-sliding *ngFor="let corte of cortes">
       <ion-item detail (click)="getTasks(corte.id)">
         <ion-label> {{ corte.modelo }} </ion-label>
+        <ion-label> {{ corte.quantity }} </ion-label>
         <ion-note slot="end" color="tertiary">
           {{ corte.tasks.length }} task
         </ion-note>
@@ -41,7 +42,7 @@
   <ion-list>
     <ion-item *ngIf="total!==0">
       <ion-label>Total</ion-label>
-      <ion-label> {{ total }} </ion-label>
+      <ion-label> {{ total | currency:'COP':'symbol-narrow' : '1.0'}} </ion-label>
     </ion-item>
   </ion-list>
 

@@ -1,6 +1,8 @@
+import {v4 as uuidv4} from 'uuid'
+
 export class Task {
 
-    id : number;
+    id : string;
     name: string;
     quantity: number;
     description: string;
@@ -9,7 +11,7 @@ export class Task {
     constructor(name:string, quantity:number, description:string, price:number){
         this.name = name;
         this.quantity = quantity;
-        this.id = new Date().getTime();
+        this.id = uuidv4();
         this.description = description;
         this.price = price;
     }
